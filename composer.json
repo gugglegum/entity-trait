@@ -1,0 +1,29 @@
+{
+  "name": "gugglegum/entity-trait",
+  "description": "PHP trait for simple entity classes (model with attributes)",
+  "type": "library",
+  "keywords": ["entity", "abstract", "trait", "attributes", "array", "fromArray", "toArray"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Melekhov",
+      "email": "gugglegum@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "gugglegum\\EntityTrait\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "gugglegum\\EntityTrait\\tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
